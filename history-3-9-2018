@@ -1,0 +1,157 @@
+    1  git clone https://github.com/priyesh-geon/KORE.Proximus
+    2  git remote -v
+    3  cd KORE.Proximus/
+    4  git remote -v
+    5  git fetch upstream 
+    6  git checkout upstream/release-5.0 -b release-5.0 
+    7  git reset HEAD --hard
+    8  git reset HEAD --hard
+    9  git status
+   10  git checkout -b BGC-8668
+   11  git status
+   12  git diff
+   13  git status
+   14  git status
+   15  git add Proximus.Shared/Proximus.Shared.Domain/Persistence/SimThresholdData.cs
+   16  git status
+   17  git commit -m "BGC-8668 Changing threshold value for pooled"
+   18  git push origin BGC-8668 
+   19  git status
+   20  git status
+   21  git reset HEAD --hard
+   22  git remote -v
+   23  git remote set-url origin https://github.com/priyesh-geon/KORE.Parsing.git
+   24  git fetch origin 
+   25  git config user.name 
+   26  git config user.name priyesh-geon
+   27  git status
+   28  git fetch upstream 
+   29  git branch
+   30  git checkout upstream/develop 
+   31  git checkout -b develop
+   32  git branch -D develop
+   33  git checkout -b develop
+   34  git branch -D $(git branch | grep -v '^*')
+   35  git branch -D $(git branch | grep -v '*')
+   36  git branch
+   37  rm .git/refs/heads/TEL-10043 
+   38  git branch -D $(git branch | grep -v '*')
+   39  ls .git/refs/heads/
+   40  rm -rf  .git/refs/heads/TEL*
+   41  ls .git/refs/heads/
+   42  rm -rf  .git/refs/heads/re*
+   43  rm -rf  .git/refs/heads/BGC*
+   44  git branch
+   45  git config user.email priyesh.karatha@gadgeon.com
+   46  git fetch origin 
+   47  ls .git/refs/remotes/
+   48  rm -rf .git/refs/remotes/RacoWireless/
+   49  rm -rf  .git/refs/remotes/*
+   50  git fetch origin 
+   51  git fetch upstream 
+   52  cd ../KORE.Telematics/
+   53  rm -rf  .git/refs/remotes/*
+   54  rm -rf  .git/refs/heads/*
+   55  git remote -v
+   56  git branch -d `git branch --list '*'`
+   57  git remote remove `git remote`
+   58  git remote remove mkhatuntcov 
+   59  git remote remove Priyesh 
+   60  git remote remove alf 
+   61  git remote remove ayoob 
+   62  git remote remove farzana 
+   63  git remote remove jency 
+   64  git remote remove lakshmi 
+   65  git remote remove rini 
+   66  git remote remove sanooja 
+   67  git remote remove shaijil 
+   68  git remote remove upstream 
+   69  git remote add upstream https://github.com/RacoWireless/KORE.Telematics
+   70  git remote remove origin 
+   71  git remote add origin https://github.com/priyesh-geon/KORE.Telematics
+   72  git fetch origin 
+   73  git git branch -d `git branch --list '*'`
+   74  git git branch -D `git branch --list '*'`
+   75  git git branch -D `branch --list '*'`
+   76  ls .git/refs/heads/
+   77  ls .git/refs/remotes/
+   78  git fetch upstream 
+   79  git checkout upstream/develop -b develop
+   80  git status
+   81  git checkout upstream/develop -b develop -f
+   82  git reset HEAD --hard
+   83  git config user.name 
+   84  git config user.name priyesh-geon
+   85  git config user.email priyesh.karatha@gadgeon.com
+   86  grep -inr "sec_" .
+   87  grep -inr "sec" .
+   88  grep -inr "sec" .
+   89  git status
+   90  git reset HEAD --hard
+   91  git status
+   92  git clean PRISMPro/code/
+   93  git clean -f -d PRISMPro/code/
+   94  git fetch upstream 
+   95  git fetch upstream 
+   96  git checkout upstream/release-5.0 -b BGC-8653
+   97  git status
+   98  git add PRISMPro/code/KORE.PRISMPro.UI/Secure/Reporting/Alerts/ThresholdAlarms.aspx.cs SIDWebClient/code/KORE.SIDWebClient.UI/Secure/Company/Thresholds/ThresholdAlarms.aspx.cs
+   99  git add PRISMPro/code/KORE.PRISMPro.UI/Secure/Reporting/Alerts/ThresholdAlarms.aspx.cs SIDWebClient/code/KORE.SIDWebClient.UI/Secure/Company/Thresholds/ThresholdAlarms.aspx.cs
+  100  git commit -m "BGC-8653 Fix for datetime format issue"
+  101  git push origin BGC-8653
+  102  git status
+  103  git pull upstream develop 
+  104  cd ../KORE.Proximus/
+  105  git branch
+  106  git fetch upstream 
+  107  git checkout upstream/release-5.0 -b BGC-8696
+  108  git status
+  109  git checkout upstream/release-5.0 -b BGC-8696 f-
+  110  git checkout upstream/release-5.0 -b BGC-8696 -f
+  111  cd SIDWebClient/code/KORE.SIDWebClient.UI/
+  112  vi ResourceManagerXML_Kore.xml 
+  113  git status
+  114  git status
+  115  cd ../..
+  116  cd ..
+  117  git status
+  118  git add PRISMPro/code/KORE.PRISMPro.UI/Secure
+  119  git status
+  120  git add SIDWebClient/code/KORE.SIDWebClient.UI/ResourceManagerXML_Kore.xml
+  121  git add SIDWebClient/code/KORE.SIDWebClient.UI/Secure/
+  122  git status
+  123  git status
+  124  git status
+  125  git diff SIDWebClient/code/KORE.SIDWebClient.UI/Secure/Company/Thresholds/DeviceUsageLookup.aspx
+  126  git add SIDWebClient/code/KORE.SIDWebClient.UI/Secure/Company/Thresholds/DeviceUsageLookup.aspx
+  127  git status
+  128  git status
+  129  git status
+  130  git status
+  131  git diff PRISMPro/code/KORE.PRISMPro.UI/Secure/Reporting/Alerts/DeviceUsageLookup.aspx
+  132  git add PRISMPro/code/KORE.PRISMPro.UI/Secure/Reporting/Alerts/DeviceUsageLookup.aspx
+  133  git status
+  134  git status
+  135  git add SIDWebClient/code/KORE.SIDWebClient.UI/Secure/Company/Thresholds/DeviceUsageLookup.aspx
+  136  git status
+  137  git commit -m "BGC-8696 Removing KB for GPRS Usage Header"
+  138  git push origin BGC-8696
+  139  git status
+  140  git add ../../../PRISMPro/code/KORE.PRISMPro.UI/ResourceManagerXML_Kore.xml ResourceManagerXML_Kore.xml
+  141  git reset HEAD~1
+  142  cd ../../..
+  143  git add .
+  144  git reset HEAD SIDWebClient/code/KORE.SIDWebClient.UI/Web.Debug.config
+  145  git reset HEAD  SIDWebClient/code/KORE.SIDWebClient.UI/Web.base.config
+  146  git reset HEAD PRISMPro/code/KORE.PRISMPro.UI/Web.Debug.config
+  147  git status
+  148  git commit -m "BGC-8696 Removing KB for GPRS Usage Header"
+  149  git push origin BGC-8696 -f
+  150  git status
+  151  git fetch upstream 
+  152  git branch -D BGC-8696 
+  153  git checkout upstream/release-5.0 -b BGC-8696 
+  154  git checkout upstream/release-5.0 -b BGC-8696 -f
+  155  git status
+  156  history 
+  157  history > history-3-9-2018
